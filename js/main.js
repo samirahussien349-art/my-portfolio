@@ -64,7 +64,11 @@ function populatePortfolioContent() {
   if (aboutShort) aboutShort.textContent = cfg.bio.aboutShort;
 
   const cvBtn = document.getElementById('download-cv');
-  if (cvBtn && cfg.personal.cvLink) cvBtn.href = cfg.personal.cvLink;
+  if (cvBtn && cfg.personal.cvLink) {
+    cvBtn.href = cfg.personal.cvLink;
+    cvBtn.target = "_blank";
+    cvBtn.setAttribute("download", "Samira_Hussien_CV.pdf");
+  }
 
   const statProjects = document.getElementById('stat-projects-count');
   if (statProjects) statProjects.textContent = `${cfg.projects.length}+`;
@@ -122,7 +126,15 @@ function populatePortfolioContent() {
         
         <!-- Role & Company -->
         <h4 class="text-lg font-bold text-slate-900 dark:text-white mt-1">${item.role}</h4>
-        <p class="text-sm font-semibold text-brand-accent mb-2">${item.company}</p>
+        <div class="flex flex-wrap items-center gap-2 mb-2">
+          <p class="text-sm font-semibold text-brand-accent">${item.company}</p>
+          ${item.certificateUrl ? `
+            <a href="${item.certificateUrl}" target="_blank" rel="noopener noreferrer" 
+               class="inline-flex items-center gap-1 text-xs font-bold px-2.5 py-0.5 rounded-full bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20 hover:scale-105 transition-transform">
+              <i class="fa-solid fa-certificate text-[11px]"></i> Verify Credential ↗
+            </a>
+          ` : ''}
+        </div>
         
         <!-- Description -->
         <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">${item.description}</p>

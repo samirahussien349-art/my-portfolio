@@ -2,7 +2,7 @@
  * ========================================================
  * PORTFOLIO CONFIGURATION - SAMIRA HUSSIEN
  * ========================================================
- * تم تحديث كافة البيانات بناءً على الـ CV الخاص بكِ!
+ * تم تحديث كافة الروابط الحقيقية من السيرة الذاتية (CV)!
  */
 
 const portfolioConfig = {
@@ -14,7 +14,7 @@ const portfolioConfig = {
     location: "Cairo, Egypt",
     phone: "01064658759",
     email: "samirahussien349@gmail.com",
-    cvLink: "#", // يمكنك وضع ملف الـ PDF هنا أو رابط درايف
+    cvLink: "Samira_Hussien__CV.pdf", // رابط الـ CV الفعلي المرفق
     availability: "Available for Roles & Projects",
   },
 
@@ -33,16 +33,16 @@ const portfolioConfig = {
     aboutDetailed: "I am a dedicated Front-End Developer with hands-on experience in building user-focused web interfaces using React.js, modern JavaScript, and Tailwind CSS. I have served as Front-End Team Lead on key projects, collaborating closely in Agile environments using Jira and Git/GitHub, and deploying scalable applications to Vercel."
   },
 
-  // 4. روابط التواصل الاجتماعي
+  // 4. روابط التواصل الاجتماعي الرسمية
   socials: [
     {
       name: "GitHub",
-      url: "https://github.com",
+      url: "https://github.com/samirahussien349-art",
       icon: "fa-brands fa-github",
     },
     {
       name: "LinkedIn",
-      url: "https://linkedin.com",
+      url: "https://www.linkedin.com/in/samira-hussien",
       icon: "fa-brands fa-linkedin-in",
     },
     {
@@ -83,7 +83,7 @@ const portfolioConfig = {
     "User-Centered Design"
   ],
 
-  // 6. المشاريع الحقيقية من السيرة الذاتية (Projects)
+  // 6. المشاريع الحقيقية مع روابط الـ Live Demo والـ GitHub من الـ CV
   projects: [
     {
       title: "PureBite",
@@ -92,8 +92,8 @@ const portfolioConfig = {
       description: "Led the Front-End team to build a responsive web interface using React.js & Vite, integrated REST APIs, and managed deployment on Vercel.",
       tags: ["React.js", "Vite", "Tailwind CSS", "REST APIs", "Team Lead"],
       image: "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=800&q=80",
-      liveDemo: "#",
-      github: "https://github.com",
+      liveDemo: "https://healthy-meal-frontend.vercel.app/",
+      github: "https://github.com/HealthyMealPlanner/healthy-meal-frontend",
       featured: true
     },
     {
@@ -103,8 +103,8 @@ const portfolioConfig = {
       description: "Graduation project in Digital Pioneers Initiative (MCIT). Developed Course Details, Ranking, Soft Skills, and Instructor Dashboard modules.",
       tags: ["React.js", "JavaScript", "Bootstrap", "REST APIs", "Agile"],
       image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80",
-      liveDemo: "#",
-      github: "https://github.com",
+      liveDemo: "https://careertech-chi.vercel.app/",
+      github: "https://github.com/FinalProject-Team/finalProject.git",
       featured: true
     },
     {
@@ -114,8 +114,8 @@ const portfolioConfig = {
       description: "Interactive front-end medical assistance concept project built with clean modern HTML, CSS, and dynamic JavaScript.",
       tags: ["JavaScript", "HTML5", "CSS3", "Interactive UI"],
       image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80",
-      liveDemo: "#",
-      github: "https://github.com",
+      liveDemo: "https://github.com/samirahussien349-art/ai-doctor",
+      github: "https://github.com/samirahussien349-art/ai-doctor",
       featured: true
     },
     {
@@ -125,13 +125,13 @@ const portfolioConfig = {
       description: "Responsive car-rental platform featuring interactive vehicle catalog, booking interface, and responsive layout.",
       tags: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
       image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=800&q=80",
-      liveDemo: "#",
-      github: "https://github.com",
+      liveDemo: "https://github.com/samirahussien349-art/Auto-Drive",
+      github: "https://github.com/samirahussien349-art/Auto-Drive",
       featured: true
     }
   ],
 
-  // 7. الخبرات العملية والتعليم والشهادات (Experience & Timeline)
+  // 7. الخبرات العملية والتعليم والشهادات مع روابط التوثيق
   timeline: [
     {
       period: "Jul 2026 – Present",
@@ -149,6 +149,7 @@ const portfolioConfig = {
       period: "2026",
       role: "Meta Front-End Developer Professional Certificate",
       company: "Meta & Coursera",
+      certificateUrl: "https://coursera.org/share/e535c9f88eb0a8cb53bf888d69ec341f",
       description: "Comprehensive professional program covering React, modern JavaScript, version control, responsive web design, and industry standard development workflows."
     },
     {
