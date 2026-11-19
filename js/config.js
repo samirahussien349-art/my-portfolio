@@ -2,7 +2,7 @@
  * ========================================================
  * PORTFOLIO CONFIGURATION - SAMIRA HUSSIEN
  * ========================================================
- * تم تحديث كافة الروابط الحقيقية من السيرة الذاتية (CV)!
+ * تم تحديث كافة الروابط الحقيقية والشهادات الرسمية من الـ CV!
  */
 
 const portfolioConfig = {
@@ -131,7 +131,7 @@ const portfolioConfig = {
     }
   ],
 
-  // 7. الخبرات العملية والتعليم والشهادات مع روابط التوثيق
+  // 7. الخبرات العملية والتعليم (Experience & Education Timeline)
   timeline: [
     {
       period: "Jul 2026 – Present",
@@ -146,19 +146,6 @@ const portfolioConfig = {
       description: "Developed the Career Tech graduation platform with React.js. Built Course Details, Ranking, Soft Skills, and Instructor Dashboard modules while adhering to UI/UX principles, Agile, Jira, and Git."
     },
     {
-      period: "2026",
-      role: "Meta Front-End Developer Professional Certificate",
-      company: "Meta & Coursera",
-      certificateUrl: "https://coursera.org/share/e535c9f88eb0a8cb53bf888d69ec341f",
-      description: "Comprehensive professional program covering React, modern JavaScript, version control, responsive web design, and industry standard development workflows."
-    },
-    {
-      period: "2026",
-      role: "Digital Pioneers Initiative Certificate",
-      company: "MCIT & Egyptian Military Academy",
-      description: "Specialized practical training in modern Front-End engineering, team collaboration, and real-world project delivery."
-    },
-    {
       period: "Graduated 2018",
       role: "Bachelor of Commerce",
       company: "Beni Suef University",
@@ -166,7 +153,33 @@ const portfolioConfig = {
     }
   ],
 
-  // 8. اللغات
+  // 8. قسم الشهادات والاعتمادات الرسمية (Certifications & Credentials)
+  certifications: [
+    {
+      title: "Meta Front-End Developer Professional Certificate",
+      issuer: "Meta & Coursera",
+      year: "2026",
+      credentialUrl: "https://coursera.org/share/e535c9f88eb0a8cb53bf888d69ec341f",
+      badgeText: "Verified Professional Credential",
+      icon: "fa-solid fa-certificate",
+      iconColor: "#0ea5e9",
+      description: "Rigorous 9-course professional program by Meta covering React.js, advanced JavaScript, HTML5/CSS3, responsive UI development, version control with Git/GitHub, and capstone production projects.",
+      skills: ["React.js", "JavaScript (ES6+)", "UI/UX Design", "Git & GitHub", "Web Performance"]
+    },
+    {
+      title: "Digital Pioneers Initiative Certificate",
+      issuer: "MCIT & Egyptian Military Academy",
+      year: "2026",
+      credentialUrl: null,
+      badgeText: "Official National Initiative",
+      icon: "fa-solid fa-graduation-cap",
+      iconColor: "#10b981",
+      description: "Intensive training initiative by the Ministry of Communications and Information Technology (MCIT) and the Egyptian Military Academy focusing on modern frontend architectures, Agile methodology, Jira, teamwork, and graduation project development.",
+      skills: ["Frontend Development", "Agile & Jira", "Team Leadership", "REST APIs", "Modern Tooling"]
+    }
+  ],
+
+  // 9. اللغات
   languages: [
     { language: "Arabic", level: "Native" },
     { language: "English", level: "Very Good" }
